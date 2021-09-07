@@ -1,0 +1,22 @@
+{
+  "name": "plataformas-automatizadas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "plataformas-automatizadas",
+  "author": "leoperez1993",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.13.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
