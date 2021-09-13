@@ -1,0 +1,7 @@
+titulo: Frameworks utilizados por el CES - Proximamente...
+frameworks:
+  - framework: Selenium
+  - framework: TestNG
+  - framework: JUnit
+  - framework: NUnit
+  - framework: ExtentReport

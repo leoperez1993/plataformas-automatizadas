@@ -6,6 +6,7 @@ import Navbar from "../components/navbar";
 const IndexPage = () => {
   return (
     <>
+      <title> CES - Plataformas Automatizadas</title>
       <Navbar></Navbar>
       <div className="container mt-5">
         <ul className="list-group">
