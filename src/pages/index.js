@@ -1,12 +1,14 @@
 import * as React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap";
+import "../css/index.css";
 import Navbar from "../components/navbar";
 
 const IndexPage = () => {
   return (
     <>
       <title> CES - Plataformas Automatizadas</title>
+
       <Navbar></Navbar>
       <div className="container mt-5">
         <ul className="list-group">

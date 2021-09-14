@@ -11,13 +11,15 @@ const Platforms = ({ data }) => {
       <div className="container">
         <div className="row">
           {data.allMdx.nodes.map((node) => (
-            <Platform
-              title={node.frontmatter.title}
-              description={node.frontmatter.description}
-              author={node.frontmatter.author}
-              link={node.slug}
-              image={getImage(node.frontmatter.hero_image)}
-            ></Platform>
+            <div class="col-md-4">
+              <Platform
+                title={node.frontmatter.title}
+                description={node.frontmatter.description}
+                author={node.frontmatter.author}
+                link={node.slug}
+                image={getImage(node.frontmatter.hero_image)}
+              ></Platform>
+            </div>
           ))}
         </div>
       </div>

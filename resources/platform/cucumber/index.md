@@ -5,27 +5,27 @@ author: "Leonardo Pérez"
 hero_image: "./cucumber.png"
 ---
 
-# INDICE
+# INDICE<a name="indice"></a>
 
-1. [SeleniumAndCucumberFramework](#-seleniumandcucumberframework)
-2. [Cucumber](#-cucumber)
-3. [Características](#%EF%B8%8F-características)
-4. [Importante](#-importante)
-5. [Estructura del proyecto](#-estructura-del-proyecto)
-6. [Configuraciones](#-configuraciones)
-7. [Uso de ExtentReport](#-uso-de-extentreport)
-8. [POM](#%EF%B8%8F-pom)
-9. [Ejecución de pruebas](#%EF%B8%8F-ejecución-de-pruebas)
-10. [Links de interés](#-links-de-interés)
+1. [<span className="text-white ">SeleniumAndCucumberFramework</span>](#seleniumandcucumberframework)
+2. [<span style="color: white">Cucumber</span>](#cucumber)
+3. [<span style="color: white">Características</span>](#características)
+4. [<span style="color: white">Importante</span>](#importante)
+5. [<span style="color: white">Estructura del proyecto</span>](#estructuradelproyecto)
+6. [<span style="color: white">Configuraciones</span>](#configuraciones)
+7. [<span style="color: white">Uso de ExtentReport</span>](#usodeextentreport)
+8. [<span style="color: white">POM</span>](#pom)
+9. [<span style="color: white">Ejecución de pruebas</span>](#ejecuciondepruebas)
+10. [<span style="color: white">Links de interés</span>](#linksdeinteres)
 
 ---
 
-# 🤖 [SeleniumAndCucumberFramework](#indice)
+# 🤖 SeleniumAndCucumberFramework<a name="seleniumandcucumberframework"></a> [🔝](#indice)
 
 Plataforma automatizada en Java, con ExtentReport, Selenium, TestNG. Se incorpora Cucumber para el manejo de escenarios.
 Con esta plataforma podemos ejecutar pruebas utilizando TestNG y como nueva funcionalidad también podemos adaptar pruebas existentes o futuras con Cucumber.
 
-# 🥒 [Cucumber](#indice)
+# 🥒 Cucumber<a name="cucumber"></a> [🔝](#indice)
 
 - Cucumber es una herramienta orientada a BDD (desarrollo impulsado por comportamiento).
 - Utiliza el lenguaje Gherkin.
@@ -34,7 +34,7 @@ Con esta plataforma podemos ejecutar pruebas utilizando TestNG y como nueva func
 - [Sitio oficial](https://cucumber.io/)
 - [Gherkin](https://cucumber.io/docs/gherkin/)
 
-# ✔️ [Características](#indice)
+# ✔️ Características<a name="características"></a> [🔝](#indice)
 
 - Soporte para varios drivers.
 - Ejecución de tests con TestNG.
@@ -43,13 +43,13 @@ Con esta plataforma podemos ejecutar pruebas utilizando TestNG y como nueva func
 - Posibilidad de configurar rutas para archivos properties con la clase “_PropertyReader_”.
 - Todas las clase se encuentran documentadas, esto nos brinda la posibilidad de ejecutar “_Javadoc Generator…/Generador Javadoc.._”
 
-# ❗ [Importante](#indice)
+# ❗ Importante<a name="importante"></a> [🔝](#indice)
 
 Para lograr utilizar esta plataforma considere leer las configuraciones en esta [sección](#configuraciones).
 
 Si lo desea puede ver esta [demo](https://github.com/leoperez1993/SeleniumAndCucumberFramework/blob/master/README.md#demo).
 
-# 📂 [Estructura del proyecto](#indice)
+# 📂 Estructura del proyecto<a name="estructuradelproyecto"></a> [🔝](#indice)
 
 ![Imagen1](https://user-images.githubusercontent.com/56354251/128389308-70abaa65-8cc3-49be-aeab-27834c68b70a.png)
 
@@ -147,7 +147,7 @@ En esta carpeta se guarda de forma automática los reportes generados por los te
 
 Tiene configurado todas las dependencias necesarias para la ejecución del proyecto.
 
-# 🔧 [Configuraciones](#indice)
+# 🔧 Configuraciones<a name="configuraciones"></a> [🔝](#indice)
 
 El diseño de esta plataforma fue hecho utilizando Eclipse, por lo que se mencionaran las configuraciones hechas para el mismo. Como dato importante se destaca que las tecnologías nombradas previamente se integran sin problemas con el IDE IntelliJ IDEA (con su respectiva configuración).
 
@@ -209,7 +209,7 @@ Es importante verificar esta compatibilidad a la hora de utilizar la plataforma,
 
 ![image](https://user-images.githubusercontent.com/56354251/128396453-df6bf6a3-a1e3-4c0d-b94a-178e55c71939.png)
 
-# 📄 [Uso de ExtentReport](#indice)
+# 📄 Uso de ExtentReport<a name="usodeextentreport"></a> [🔝](#indice)
 
 ## TestNG
 
@@ -270,7 +270,7 @@ Si los tests no se encuentran integrados con Cucumber, el reporte generado cuent
 - Carpeta contenedora del reporte.html.
 - Carpeta contenedora de screenshot.
 
-# 🗄️ [POM](#indice)
+# 🗄️ POM<a name="pom"></a> [🔝](#indice)
 
 ## Properties
 
@@ -284,7 +284,7 @@ En las dependencias se colocan los frameworks y plugins necesarios para la corre
 
 ![image](https://user-images.githubusercontent.com/56354251/128399509-f6585280-1eb2-42fb-9271-781125338ee0.png)
 
-# ▶️ [Ejecución de pruebas](#indice)
+# ▶️ Ejecución de pruebas<a name="ejecuciondepruebas"></a> [🔝](#indice)
 
 A continuación, se brinda un método genérico para la ejecución de los tests, existen muchas formas de ejecutar las pruebas.
 
@@ -300,7 +300,7 @@ A continuación, se brinda un método genérico para la ejecución de los tests,
 
 https://user-images.githubusercontent.com/56354251/128399875-62af7f71-f6ef-42ab-958f-00ee9cd3447f.mp4
 
-# 🔗 [Links de interés](#indice)
+# 🔗 Links de interés<a name="linksdeinteres"></a> [🔝](#indice)
 
 Los siguientes links proporcionados fueron visitados el **05/08/2021**.
 

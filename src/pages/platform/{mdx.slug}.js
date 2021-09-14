@@ -2,6 +2,8 @@ import * as React from "react";
 import Navbar from "../../components/navbar";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { graphql } from "gatsby";
+import "../../css/platform.css";
+
 const PlatformInfo = ({ data }) => {
   return (
     <>
