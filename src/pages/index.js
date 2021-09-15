@@ -1,6 +1,7 @@
 import * as React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap";
+import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 import "../css/index.css";
 import Navbar from "../components/navbar";
 
