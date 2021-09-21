@@ -1,7 +1,6 @@
 import * as React from "react";
 import { GatsbyImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
-import "../css/platform.css";
 
 const Platform = ({ title, description, author, link, image }) => {
   return (

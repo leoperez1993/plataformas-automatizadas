@@ -1,8 +1,9 @@
 ---
+tipo: platform
 title: "Selenium Framework .Net"
 description: "Plataforma automatizada en C#, con ExtentReport, Selenium y NUnit."
 author: "Leonardo Pérez"
-hero_image: "./net.png"
+hero_image: "./net.jpg"
 ---
 
 # Plataforma Automatizada 🤖

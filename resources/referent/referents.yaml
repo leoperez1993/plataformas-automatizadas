@@ -1,7 +1,7 @@
----
-titulo: Referentes para el CES - Proximamente...
 referentes:
-  - referente: Kent Beck
   - referente: Sem Kaner
+    descripcion: Este es Sem Kaner
   - referente: Eric Gamma
+    descripcion: Este es Eric Gamma
   - referente: Martin Fowler
+    descripcion: Este es Martin Fowler

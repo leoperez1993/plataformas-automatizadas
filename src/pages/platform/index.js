@@ -16,7 +16,7 @@ const Platforms = ({ data }) => {
             author={node.frontmatter.author}
             link={node.slug}
             image={getImage(node.frontmatter.hero_image)}
-          ></Platform>
+          />
         ))}
       </div>
     </>
@@ -25,7 +25,7 @@ const Platforms = ({ data }) => {
 
 export const query = graphql`
   {
-    allMdx(filter: { slug: { ne: "info-framework" } }) {
+    allMdx(filter: { frontmatter: { tipo: { eq: "platform" } } }) {
       nodes {
         frontmatter {
           title

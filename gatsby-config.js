@@ -27,5 +27,12 @@ module.exports = {
         path: `${__dirname}/resources/framework`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `referent`,
+        path: `${__dirname}/resources/referent`,
+      },
+    },
   ],
 };

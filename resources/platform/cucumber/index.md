@@ -1,8 +1,9 @@
 ---
+tipo: platform
 title: "Selenium Cucumber Framework Java"
 description: "Plataforma automatizada en Java, con ExtentReport, Selenium, TestNG. Se incorpora Cucumber para el manejo de escenarios."
 author: "Leonardo Pérez"
-hero_image: "./cucumber.png"
+hero_image: "./cucumber.jpg"
 ---
 
 # INDICE<a name="indice"></a>
