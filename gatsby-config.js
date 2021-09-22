@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    pathPrefix: "/plataformas-automatizadas",
+    pathPrefix: "https://leoperez1993.github.io/plataformas-automatizadas/",
     siteUrl: "https://www.yourdomain.tld",
     title: "plataformas-automatizadas",
   },
